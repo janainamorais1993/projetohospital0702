@@ -1,0 +1,71 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+nav{
+	box-shadow: 1px 0px 10px black;
+
+}
+
+header{
+	display: flex;
+}
+
+.foto{
+	background-color: #7eb5ef;
+	width: 250px;
+	height: 270px;
+	margin-top: 57px;
+}
+
+.usuario{
+	background-color: #e2e3e4;
+	width: 150px;
+	height: 150px;
+	border-radius: 90px;
+}
+
+p{
+	font-size: 25px;
+	padding-top: 25px;
+}
+
+.menu-usuario{
+	background-color: #e2e3e4;
+	width: 250px;
+	height: 330px;
+	margin-top: 0px;
+
+}
+
+.board{
+	background-color: #F5FFFA;
+	width: 1100px;
+	height: 600px;
+	margin-top: -600px;
+	margin-left: 235px;
+}
+
+.card{
+	margin-left: 100px;
+}
+
+.card-img-top{
+	width: 130px;
+}
+
+
+.barra-lateral{
+	background-color: #7eb5ef;;
+	width: 70px;
+	height: 600px;
+	margin-top: -601px;
+	margin-left: 1265px;
+}
+
+
+img.icone{
+	margin-top: 80px;
+}
+

@@ -1,0 +1,23 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	box-shadow: 1px 0px 10px black;
+
+}
+
+
+form{
+
+	margin-top:80px;
+	width: 350px;
+}
+
+.form-group{
+	text-align: left;
+}
+
+h2{
+	margin-top: 80px;
+}

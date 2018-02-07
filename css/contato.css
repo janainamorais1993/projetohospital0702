@@ -1,0 +1,62 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	box-shadow: 1px 0px 10px black;
+
+}
+
+
+header{
+	background-color: #f4f4f4;
+	width: 100%;
+	padding: 23% 5%;
+	margin-top: -190px;
+	text-align: left;
+	height:1100px;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    padding: 25px;
+    width: 600px;
+    height: 450px;
+    /* Para ver as bordas do formulário */
+ 
+}
+
+
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: flex;
+    width: 150px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+.areatexto{
+    width: 70%;
+    font-size: 18px;
+    text-align: justify;
+    
+
+}

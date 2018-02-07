@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html data-ng-app="MeuModulo">
+  <head>
+    <meta charset="utf-8">
+    <title>Ng-Show</title>
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <style>
+    .wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .message {
+      background-color: #666;
+      height: 100px;
+    }
+  </style>
+  </head>
+  <body data-ng-controller="UserController as User" class="wrapper">
+<h1>{{ User.titulo }}</h1>
+    <section class="row">
+      <input type="checkbox" id="mostrar" data-ng-model="myCheck">
+      <label for="mostrar">Mostrar</label>
+      <p>Valor de checkbox: {{ myCheck }}</p>
+      <div class="message" data-ng-show="myCheck">
+       Alguma Mensagem
+      </div>
+    </section>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.js"></script>
+    <script>
+      angular.module('MeuModulo', ['ngAnimate'])
+      .controller('UserController', UserController);
+function UserController() {
+        var vm = this;
+        vm.titulo = 'Ng-Show';
+}
+</script>
+  </body>
+</html>
+ -->
+
+
+
+
+
+
+
+  
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+
+
+<div class="board" ng-app="">
+
+<div class="card border-secondary mb-3" style="max-width: 25rem; display: inline-flex; margin: 10px;">
+  <div class="card-header">Analgésico 1 
+  <button type="button" class="btn btn-dark" style="float: right;" ng-hide="showme=true">Mostrar</button>
+	</div>
+
+  <div class="card-body text-secondary" ng-show="showme">
+    <h5 class="card-title">Secondary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+
+</div>
+
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.5/angular.min.js'></script>	
+
+
+

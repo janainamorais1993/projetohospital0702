@@ -1,0 +1,61 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	box-shadow: 1px 0px 10px black;
+
+}
+
+
+header{
+  /*background-color: #f4f4f4;
+  */
+	width: 100%;
+	padding: 23% 5%;
+	text-align: center;
+	margin-top: -60px;
+  background-image: url(https://www.coopincontro.it/wp-content/uploads/2017/10/RSA.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.grow:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+section{
+	padding: 2%;
+
+
+}
+
+section h2{
+	margin-bottom: 5%;
+}
+
+
+footer{
+	background-color: #222;
+	color: #a3a3a3;
+	margin: 0;
+	padding: 2%;
+	height: 350px;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+.carousel-item img{
+  width: 50%;
+  margin: auto;
+}
