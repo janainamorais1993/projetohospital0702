@@ -59,3 +59,14 @@ footer{
   width: 50%;
   margin: auto;
 }
+
+.fontlogo{
+  font-family: 'Fugaz One', cursive;
+  color: #1d517c;
+  font-size: 3vh;
+}
+.fontLogo{
+  font-family: 'Fugaz One', cursive;
+  color: #1d517c;
+font-size: 5vh;
+}
